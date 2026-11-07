@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ikra — Kaynaklar ve Lisanslar / Sources and Licenses</title>
-<meta name="description" content="ikra Kur'an-ı Kerim uygulamasında kullanılan metin, ses ve yazı tipi kaynakları. Text, audio and font sources used in the ikra Quran app.">
+<title>ikra — Kaynaklar, Lisanslar ve Koşullar / Sources, Licenses and Terms</title>
+<meta name="description" content="ikra uygulamasında kullanılan kaynaklar, lisanslar ve kullanım koşulları. Sources, licenses and terms of use of the ikra app.">
 <style>
   :root {
     --bg: #f7f4ec; --card: #fffdf7; --text: #2b2a26; --muted: #6b675d;
@@ -52,7 +52,6 @@
 <main>
   <header>
     <h1>ikra</h1>
-    <p>Kur'an-ı Kerim · Quran</p>
   </header>
 
   <nav>
@@ -62,21 +61,25 @@
 
   <!-- ============================== TÜRKÇE ============================== -->
   <section id="tr" lang="tr">
-    <h2>Kaynaklar ve Lisanslar</h2>
+    <h2>Kaynaklar, Lisanslar ve Kullanım Koşulları</h2>
     <p class="meta">Son güncelleme: 7 Kasım 2026</p>
 
-    <p>ikra, aşağıdaki kaynakların emeğiyle hazırlanmıştır. Metinler, ses
-      kayıtları ve yazı tipleri ilgili sahiplerine aittir ve kendi lisans
-      koşullarıyla kullanılmaktadır.</p>
+    <p>ikra, aşağıdaki kaynakların emeğiyle hazırlanmıştır. Metinler, meâller,
+      ses kayıtları ve yazı tipleri ilgili hak sahiplerine aittir; Geliştirici bu
+      içerikler üzerinde herhangi bir mülkiyet iddiasında bulunmaz. İçerikler,
+      kaynaklarının yayımladığı kullanım koşulları gözetilerek ve iyi niyetle
+      kullanılmaktadır. Uygulama ücretsizdir ve bu içeriklerden gelir elde
+      edilmez.</p>
 
     <h3>Kur'an metni ve meâller</h3>
     <ul>
       <li><strong>Arapça metin:</strong> Tanzil Projesi
         (<a href="https://tanzil.net">tanzil.net</a>),
-        <a href="https://alquran.cloud">alquran.cloud</a> üzerinden. Tanzil metni,
-        değiştirilmeden ve kaynak belirtilerek dağıtılabilir.</li>
-      <li><strong>Türkçe meâl:</strong> Diyanet İşleri Başkanlığı Meali.</li>
-      <li><strong>İngilizce meâl:</strong> Sahih International.</li>
+        <a href="https://alquran.cloud">alquran.cloud</a> üzerinden. Metin,
+        Tanzil kullanım koşulları uyarınca kaynak belirtilerek kullanılır; sûre
+        başlarındaki Besmele yalnızca görüntüleme amacıyla ayrı gösterilir.</li>
+      <li><strong>Türkçe meâl:</strong> Diyanet İşleri Başkanlığı Meali. Tüm hakları Diyanet İşleri Başkanlığı'na aittir.</li>
+      <li><strong>İngilizce meâl:</strong> Sahih International. Tüm hakları Sahih International'a aittir.</li>
     </ul>
 
     <h3>Hafız sesleri ve zamanlamalar</h3>
@@ -86,7 +89,9 @@
       <li><a href="https://quran.com">quran.com</a> — kelime kelime zamanlamalar</li>
     </ul>
     <p class="small">Ses dosyaları uygulamaya gömülü değildir; siz dinlemek ya da
-      indirmek istediğinizde doğrudan bu kaynaklardan alınır.</p>
+      indirmek istediğinizde doğrudan bu kaynaklardan alınır. Kayıtların hakları
+      okuyuculara ve ilgili sitelere aittir; bu sitelerin erişilebilirliği ve
+      içeriği Geliştiricinin kontrolünde değildir.</p>
 
     <h3>Sesli Türkçe meâl</h3>
     <ul>
@@ -122,34 +127,86 @@
     <h3>Yazılım</h3>
     <p>Uygulama Flutter ile geliştirilmiştir ve açık kaynak paketler kullanır
       (provider, just_audio, just_audio_background, audio_session, flutter_tts,
-      shared_preferences, path_provider, webview_flutter). Bu paketlerin tam lisans
+      shared_preferences, path_provider, webview_flutter, in_app_review,
+      firebase_core, firebase_analytics, firebase_crashlytics). Bu paketlerin tam lisans
       metinleri uygulamada Ayarlar › Hakkında › Kaynaklar ve lisanslar › Açık
       kaynak lisansları bölümünde yer alır.</p>
 
-    <h3>Hak sahiplerine</h3>
-    <p>Bir içeriğin kullanımıyla ilgili itirazınız varsa lütfen
-      <a href="mailto:resulsilay@gmail.com">resulsilay@gmail.com</a> adresine
-      yazın; en kısa sürede değerlendirilir.</p>
+    <h3>Hak sahiplerine (içerik kaldırma talepleri)</h3>
+    <p>Uygulamadaki bir içeriğin haklarınızı ihlal ettiğini düşünüyorsanız lütfen
+      <a href="mailto:r.silay.dev@gmail.com">r.silay.dev@gmail.com</a> adresine;
+      ilgili içeriği, hak sahipliğinizi gösteren bilgileri ve iletişim
+      bilgilerinizi içeren bir bildirim gönderin. Geçerli bildirimler en kısa
+      sürede değerlendirilir ve gerekirse ilgili içerik bir sonraki güncellemede
+      kaldırılır veya hak sahibinin koşullarına uygun hâle getirilir.</p>
+
+    <h3>Uygulama ve ticari markalar</h3>
+    <p>Uygulamanın yazılımı, arayüz tasarımı ve “ikra” adı Geliştiriciye aittir.
+      Üçüncü taraflara ait içerikler hariç olmak üzere Uygulama izinsiz olarak
+      kopyalanamaz, değiştirilemez veya yeniden dağıtılamaz. Bu sayfada anılan
+      kurum, site ve ürün adları ilgili sahiplerinin markalarıdır; yalnızca kaynak
+      göstermek amacıyla anılmıştır ve bu kişi veya kurumlarla bir ortaklık ya da
+      onay ilişkisi bulunduğu anlamına gelmez.</p>
+
+    <h3>Kullanım koşulları ve sorumluluk reddi</h3>
+    <p>Uygulamayı kullanarak aşağıdaki koşulları kabul etmiş olursunuz:</p>
+    <ul>
+      <li><strong>Olduğu gibi sunulur:</strong> Uygulama ücretsiz olarak ve “olduğu
+        gibi” (“as is”) sunulur. Geliştirici; Uygulamanın kesintisiz, hatasız veya
+        belirli bir amaca uygun olacağına dair açık ya da örtülü hiçbir garanti
+        vermez.</li>
+      <li><strong>İçeriğin doğruluğu:</strong> Metinlerin doğru aktarılması için
+        özen gösterilmiştir; ancak dizgi, yazı tipi, görüntüleme veya teknik
+        nedenlerle hata bulunabilir. Meâller, mütercimlerin insan emeği olan
+        yorumlarıdır ve aslın yerini tutmaz. Dinî konularda ve ibadetlerinizde
+        yetkili kurumlarca basılmış bir Mushaf'ı ve ehil kişileri esas alınız.
+        Fark ettiğiniz hataları bildirmeniz rica olunur.</li>
+      <li><strong>Üçüncü taraf hizmetler:</strong> Ses dosyaları, metin okuma
+        motoru, Google Play ve Firebase gibi üçüncü taraf hizmetler Geliştiricinin
+        kontrolünde değildir. Bu hizmetlerin içeriği, erişilebilirliği, kesintisi
+        veya veri uygulamalarından Geliştirici sorumlu değildir.</li>
+      <li><strong>Sorumluluğun sınırlandırılması:</strong> Yürürlükteki mevzuatın
+        izin verdiği azami ölçüde Geliştirici, Uygulamanın kullanımından veya
+        kullanılamamasından doğan doğrudan ya da dolaylı hiçbir zarar (veri kaybı,
+        cihaz arızası, mobil veri ücretleri dâhil) için sorumlu tutulamaz. Bu
+        hüküm, kanunen sınırlandırılamayan sorumlulukları (ör. kast veya ağır
+        kusur) ve tüketicilerin emredici haklarını etkilemez.</li>
+      <li><strong>Mobil veri:</strong> Ses dosyalarının indirilmesi ve dinlenmesi
+        mobil veri kullanabilir; operatörünüzün uygulayacağı ücretlerden
+        kullanıcı sorumludur.</li>
+      <li><strong>Değişiklik ve sonlandırma:</strong> Geliştirici, Uygulamayı veya
+        içeriğini önceden bildirimde bulunmaksızın değiştirebilir, askıya alabilir
+        veya yayından kaldırabilir. Bu koşullar da güncellenebilir; güncel sürüm
+        bu sayfada yayımlanır.</li>
+      <li><strong>Uygulanacak hukuk:</strong> Bu koşullar Türkiye Cumhuriyeti
+        hukukuna tabidir. Bulunduğunuz ülkenin tüketicilere tanıdığı emredici
+        haklar saklıdır.</li>
+    </ul>
+    <p>Gizlilikle ilgili konular için
+      <a href="privacy-policy.html#tr">Gizlilik Politikası</a>'na bakınız.</p>
   </section>
 
   <!-- ============================== ENGLISH ============================== -->
   <section id="en" lang="en">
-    <h2>Sources and Licenses</h2>
+    <h2>Sources, Licenses and Terms of Use</h2>
     <p class="meta">Last updated: November 7, 2026</p>
 
-    <p>ikra is built on the work of the sources below. Texts, audio recordings
-      and fonts belong to their respective owners and are used under their own
-      license terms.</p>
+    <p>ikra is built on the work of the sources below. Texts, translations,
+      audio recordings and fonts belong to their respective rights holders; the
+      Developer claims no ownership of them. They are used in good faith, with
+      regard to the terms of use published by their sources. The App is free and
+      no revenue is earned from this content.</p>
 
     <h3>Quran text and translations</h3>
     <ul>
       <li><strong>Arabic text:</strong> Tanzil Project
         (<a href="https://tanzil.net">tanzil.net</a>), via
-        <a href="https://alquran.cloud">alquran.cloud</a>. The Tanzil text may be
-        redistributed unmodified with attribution.</li>
+        <a href="https://alquran.cloud">alquran.cloud</a>. The text is used with
+        attribution under the Tanzil terms of use; the Basmala at the start of
+        surahs is shown separately for display purposes only.</li>
       <li><strong>Turkish translation:</strong> Presidency of Religious Affairs of
-        Türkiye (Diyanet).</li>
-      <li><strong>English translation:</strong> Sahih International.</li>
+        Türkiye (Diyanet). All rights belong to Diyanet.</li>
+      <li><strong>English translation:</strong> Sahih International. All rights belong to Sahih International.</li>
     </ul>
 
     <h3>Recitations and timings</h3>
@@ -159,7 +216,10 @@
       <li><a href="https://quran.com">quran.com</a> — word-by-word timings</li>
     </ul>
     <p class="small">Audio files are not bundled with the app; they are fetched
-      directly from these sources when you choose to play or download them.</p>
+      directly from these sources when you choose to play or download them.
+      Rights to the recordings belong to the reciters and the respective sites;
+      the availability and content of these sites are outside the Developer's
+      control.</p>
 
     <h3>Turkish audio translation</h3>
     <ul>
@@ -195,14 +255,61 @@
     <h3>Software</h3>
     <p>The app is built with Flutter and uses open source packages (provider,
       just_audio, just_audio_background, audio_session, flutter_tts,
-      shared_preferences, path_provider, webview_flutter). Their full license texts
+      shared_preferences, path_provider, webview_flutter, in_app_review,
+      firebase_core, firebase_analytics, firebase_crashlytics). Their full license texts
       are available in the app under Settings › About › Sources and licenses ›
       Open source licenses.</p>
 
-    <h3>For rights holders</h3>
-    <p>If you have a concern about the use of any content, please write to
-      <a href="mailto:resulsilay@gmail.com">resulsilay@gmail.com</a>; it will be
-      reviewed promptly.</p>
+    <h3>For rights holders (takedown requests)</h3>
+    <p>If you believe any content in the App infringes your rights, please send
+      a notice to <a href="mailto:r.silay.dev@gmail.com">r.silay.dev@gmail.com</a>
+      identifying the content, showing your ownership of the rights and including
+      your contact details. Valid notices are reviewed promptly and, where
+      appropriate, the content is removed or brought in line with the rights
+      holder's terms in the next update.</p>
+
+    <h3>The App and trademarks</h3>
+    <p>The App's software, interface design and the name “ikra” belong to the
+      Developer. Except for third-party content, the App may not be copied,
+      modified or redistributed without permission. Names of organizations, sites
+      and products mentioned on this page are trademarks of their respective
+      owners; they are mentioned only for attribution and do not imply any
+      affiliation with or endorsement by them.</p>
+
+    <h3>Terms of use and disclaimer</h3>
+    <p>By using the App you agree to the following:</p>
+    <ul>
+      <li><strong>Provided as is:</strong> The App is provided free of charge and
+        “as is”. The Developer makes no express or implied warranty that the App
+        will be uninterrupted, error-free or fit for a particular purpose.</li>
+      <li><strong>Accuracy of content:</strong> Care has been taken to reproduce the
+        texts accurately, but errors may occur due to typesetting, fonts, display or
+        technical reasons. Translations are human interpretations by their
+        translators and do not replace the original. For religious matters and
+        worship, rely on a printed Mushaf published by an authorized body and on
+        qualified scholars. Please report any errors you notice.</li>
+      <li><strong>Third-party services:</strong> Audio files, the text-to-speech
+        engine, Google Play, Firebase and other third-party services are not
+        controlled by the Developer. The Developer is not responsible for their
+        content, availability, outages or data practices.</li>
+      <li><strong>Limitation of liability:</strong> To the maximum extent permitted
+        by applicable law, the Developer is not liable for any direct or indirect
+        damages (including data loss, device malfunction or mobile data charges)
+        arising from the use of, or inability to use, the App. This does not affect
+        liability that cannot be limited by law (e.g. for intent or gross
+        negligence) or consumers' mandatory rights.</li>
+      <li><strong>Mobile data:</strong> Downloading and streaming audio may use
+        mobile data; you are responsible for any charges from your carrier.</li>
+      <li><strong>Changes and termination:</strong> The Developer may change,
+        suspend or withdraw the App or its content without prior notice. These
+        terms may also be updated; the current version is published on this
+        page.</li>
+      <li><strong>Governing law:</strong> These terms are governed by the laws of
+        the Republic of Türkiye. Mandatory rights granted to consumers in your
+        country remain unaffected.</li>
+    </ul>
+    <p>For privacy matters, see the
+      <a href="privacy-policy.html#en">Privacy Policy</a>.</p>
   </section>
 
   <footer>© 2026 ikra</footer>
