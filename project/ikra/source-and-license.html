@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ikra — Kaynaklar ve Lisanslar / Sources and Licenses</title>
+<meta name="description" content="ikra Kur'an-ı Kerim uygulamasında kullanılan metin, ses ve yazı tipi kaynakları. Text, audio and font sources used in the ikra Quran app.">
+<style>
+  :root {
+    --bg: #f7f4ec; --card: #fffdf7; --text: #2b2a26; --muted: #6b675d;
+    --accent: #8a6d1f; --line: #e4ddca;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12140f; --card: #1b1e17; --text: #ebe6d8; --muted: #a39d8c;
+      --accent: #d6b25e; --line: #2e3227;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { text-align: center; margin-bottom: 24px; }
+  header h1 { margin: 0; font-size: 2rem; color: var(--accent); letter-spacing: .02em; }
+  header p { margin: 4px 0 0; color: var(--muted); }
+  nav { display: flex; justify-content: center; gap: 12px; margin: 16px 0 28px; }
+  nav a {
+    color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+    padding: 6px 16px; border-radius: 999px; background: var(--card);
+  }
+  section {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 24px 22px; margin-bottom: 24px;
+  }
+  h2 { margin-top: 0; font-size: 1.4rem; }
+  h3 { font-size: 1.05rem; margin: 22px 0 6px; color: var(--accent); }
+  p, li, td { overflow-wrap: anywhere; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  .meta { color: var(--muted); font-size: .9rem; }
+  .small { color: var(--muted); font-size: .9rem; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  footer { text-align: center; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>ikra</h1>
+    <p>Kur'an-ı Kerim · Quran</p>
+  </header>
+
+  <nav>
+    <a href="#tr" hreflang="tr">Türkçe</a>
+    <a href="#en" hreflang="en">English</a>
+  </nav>
+
+  <!-- ============================== TÜRKÇE ============================== -->
+  <section id="tr" lang="tr">
+    <h2>Kaynaklar ve Lisanslar</h2>
+    <p class="meta">Son güncelleme: 7 Kasım 2026</p>
+
+    <p>ikra, aşağıdaki kaynakların emeğiyle hazırlanmıştır. Metinler, ses
+      kayıtları ve yazı tipleri ilgili sahiplerine aittir ve kendi lisans
+      koşullarıyla kullanılmaktadır.</p>
+
+    <h3>Kur'an metni ve meâller</h3>
+    <ul>
+      <li><strong>Arapça metin:</strong> Tanzil Projesi
+        (<a href="https://tanzil.net">tanzil.net</a>),
+        <a href="https://alquran.cloud">alquran.cloud</a> üzerinden. Tanzil metni,
+        değiştirilmeden ve kaynak belirtilerek dağıtılabilir.</li>
+      <li><strong>Türkçe meâl:</strong> Diyanet İşleri Başkanlığı Meali.</li>
+      <li><strong>İngilizce meâl:</strong> Sahih International.</li>
+    </ul>
+
+    <h3>Hafız sesleri ve zamanlamalar</h3>
+    <ul>
+      <li><a href="https://everyayah.com">everyayah.com</a> — ayet ayet hafız kayıtları</li>
+      <li><a href="https://mp3quran.net">mp3quran.net</a> — sûre kayıtları ve ayet zamanlamaları</li>
+      <li><a href="https://quran.com">quran.com</a> — kelime kelime zamanlamalar</li>
+    </ul>
+    <p class="small">Ses dosyaları uygulamaya gömülü değildir; siz dinlemek ya da
+      indirmek istediğinizde doğrudan bu kaynaklardan alınır.</p>
+
+    <h3>Sesli Türkçe meâl</h3>
+    <ul>
+      <li><a href="http://www.hasenat.net">hasenat.net</a> — Okuyan: Ahmet Deniz.
+        Eser: “Evrensel Çağrı Kur'an-ı Kerim, Meali ve Fıkhi Tefsiri”
+        (Prof. Dr. Hamdi Döndüren). Okunan metin, uygulamada gösterilen Diyanet
+        meâlinden farklı olabilir.</li>
+    </ul>
+
+    <h3>Yazı tipleri</h3>
+    <table>
+      <thead><tr><th>Yazı tipi</th><th>Telif</th><th>Lisans</th></tr></thead>
+      <tbody>
+        <tr><td>Amiri, Amiri Quran</td><td>The Amiri Project Authors (Khaled Hosny)</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Reem Kufi</td><td>The Reem Kufi Project Authors (Khaled Hosny)</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Scheherazade New</td><td>SIL Global</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Lateef</td><td>SIL Global</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Lateef (eski sürüm, “Latif”)</td><td>SIL International</td><td>SIL ücretsiz dağıtım lisansı</td></tr>
+        <tr><td>Noto Naskh Arabic</td><td>The Noto Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Literata</td><td>The Literata Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Lora</td><td>The Lora Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>EB Garamond</td><td>The EB Garamond Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Nunito</td><td>The Nunito Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>KFGQPC HAFS Uthmanic Script, KFGQPC Uthman Taha Naskh, KFGQPC Kufi Stylistic</td><td>Kral Fahd Mushaf Basım Kompleksi</td><td>KFGQPC son kullanıcı lisansı (ücretsiz, değiştirilemez)</td></tr>
+        <tr><td>PDMS Saleem Quran Font</td><td>Pakistan Data Management Services</td><td>PDMS son kullanıcı lisansı</td></tr>
+        <tr><td>Noorehuda</td><td>abu saad, noorehidayat.org</td><td>NooreHidayat son kullanıcı lisansı</td></tr>
+        <tr><td>Shaikh Hamdullah Mushaf, Emine</td><td>Muhammet Abay</td><td>Tüm hakları yazara aittir</td></tr>
+      </tbody>
+    </table>
+    <p class="small">SIL Open Font License 1.1 metni:
+      <a href="https://openfontlicense.org">openfontlicense.org</a></p>
+
+    <h3>Yazılım</h3>
+    <p>Uygulama Flutter ile geliştirilmiştir ve açık kaynak paketler kullanır
+      (provider, just_audio, just_audio_background, audio_session, flutter_tts,
+      shared_preferences, path_provider, webview_flutter). Bu paketlerin tam lisans
+      metinleri uygulamada Ayarlar › Hakkında › Kaynaklar ve lisanslar › Açık
+      kaynak lisansları bölümünde yer alır.</p>
+
+    <h3>Hak sahiplerine</h3>
+    <p>Bir içeriğin kullanımıyla ilgili itirazınız varsa lütfen
+      <a href="mailto:resulsilay@gmail.com">resulsilay@gmail.com</a> adresine
+      yazın; en kısa sürede değerlendirilir.</p>
+  </section>
+
+  <!-- ============================== ENGLISH ============================== -->
+  <section id="en" lang="en">
+    <h2>Sources and Licenses</h2>
+    <p class="meta">Last updated: November 7, 2026</p>
+
+    <p>ikra is built on the work of the sources below. Texts, audio recordings
+      and fonts belong to their respective owners and are used under their own
+      license terms.</p>
+
+    <h3>Quran text and translations</h3>
+    <ul>
+      <li><strong>Arabic text:</strong> Tanzil Project
+        (<a href="https://tanzil.net">tanzil.net</a>), via
+        <a href="https://alquran.cloud">alquran.cloud</a>. The Tanzil text may be
+        redistributed unmodified with attribution.</li>
+      <li><strong>Turkish translation:</strong> Presidency of Religious Affairs of
+        Türkiye (Diyanet).</li>
+      <li><strong>English translation:</strong> Sahih International.</li>
+    </ul>
+
+    <h3>Recitations and timings</h3>
+    <ul>
+      <li><a href="https://everyayah.com">everyayah.com</a> — verse-by-verse recitations</li>
+      <li><a href="https://mp3quran.net">mp3quran.net</a> — surah recitations and verse timings</li>
+      <li><a href="https://quran.com">quran.com</a> — word-by-word timings</li>
+    </ul>
+    <p class="small">Audio files are not bundled with the app; they are fetched
+      directly from these sources when you choose to play or download them.</p>
+
+    <h3>Turkish audio translation</h3>
+    <ul>
+      <li><a href="http://www.hasenat.net">hasenat.net</a> — Narrator: Ahmet Deniz.
+        Work: “Evrensel Çağrı Kur'an-ı Kerim, Meali ve Fıkhi Tefsiri”
+        (Prof. Dr. Hamdi Döndüren). The narrated text may differ from the Diyanet
+        translation shown in the app.</li>
+    </ul>
+
+    <h3>Fonts</h3>
+    <table>
+      <thead><tr><th>Font</th><th>Copyright</th><th>License</th></tr></thead>
+      <tbody>
+        <tr><td>Amiri, Amiri Quran</td><td>The Amiri Project Authors (Khaled Hosny)</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Reem Kufi</td><td>The Reem Kufi Project Authors (Khaled Hosny)</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Scheherazade New</td><td>SIL Global</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Lateef</td><td>SIL Global</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Lateef (legacy version, “Latif”)</td><td>SIL International</td><td>SIL freeware license</td></tr>
+        <tr><td>Noto Naskh Arabic</td><td>The Noto Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Literata</td><td>The Literata Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Lora</td><td>The Lora Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>EB Garamond</td><td>The EB Garamond Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>Nunito</td><td>The Nunito Project Authors</td><td>SIL OFL 1.1</td></tr>
+        <tr><td>KFGQPC HAFS Uthmanic Script, KFGQPC Uthman Taha Naskh, KFGQPC Kufi Stylistic</td><td>King Fahd Glorious Quran Printing Complex</td><td>KFGQPC end-user license (free, no modification)</td></tr>
+        <tr><td>PDMS Saleem Quran Font</td><td>Pakistan Data Management Services</td><td>PDMS end-user license</td></tr>
+        <tr><td>Noorehuda</td><td>abu saad, noorehidayat.org</td><td>NooreHidayat end-user license</td></tr>
+        <tr><td>Shaikh Hamdullah Mushaf, Emine</td><td>Muhammet Abay</td><td>All rights reserved by the author</td></tr>
+      </tbody>
+    </table>
+    <p class="small">SIL Open Font License 1.1:
+      <a href="https://openfontlicense.org">openfontlicense.org</a></p>
+
+    <h3>Software</h3>
+    <p>The app is built with Flutter and uses open source packages (provider,
+      just_audio, just_audio_background, audio_session, flutter_tts,
+      shared_preferences, path_provider, webview_flutter). Their full license texts
+      are available in the app under Settings › About › Sources and licenses ›
+      Open source licenses.</p>
+
+    <h3>For rights holders</h3>
+    <p>If you have a concern about the use of any content, please write to
+      <a href="mailto:resulsilay@gmail.com">resulsilay@gmail.com</a>; it will be
+      reviewed promptly.</p>
+  </section>
+
+  <footer>© 2026 ikra</footer>
+</main>
+</body>
+</html>
